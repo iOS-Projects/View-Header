@@ -15,6 +15,8 @@
 		F8FFA11A1DF9385C00EEC0D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FFA1181DF9385C00EEC0D4 /* LaunchScreen.storyboard */; };
 		F8FFA1251DF9385C00EEC0D4 /* Header_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FFA1241DF9385C00EEC0D4 /* Header_ViewTests.swift */; };
 		F8FFA1301DF9385C00EEC0D4 /* Header_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FFA12F1DF9385C00EEC0D4 /* Header_ViewUITests.swift */; };
+		F8FFA13F1DF938CC00EEC0D4 /* HeaderViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FFA13D1DF938CC00EEC0D4 /* HeaderViewTableViewCell.swift */; };
+		F8FFA1401DF938CC00EEC0D4 /* HeaderViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8FFA13E1DF938CC00EEC0D4 /* HeaderViewTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F8FFA12B1DF9385C00EEC0D4 /* Header ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Header ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FFA12F1DF9385C00EEC0D4 /* Header_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header_ViewUITests.swift; sourceTree = "<group>"; };
 		F8FFA1311DF9385C00EEC0D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8FFA13D1DF938CC00EEC0D4 /* HeaderViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewTableViewCell.swift; sourceTree = "<group>"; };
+		F8FFA13E1DF938CC00EEC0D4 /* HeaderViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderViewTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				F8FFA10C1DF9385C00EEC0D4 /* AppDelegate.swift */,
 				F8FFA10E1DF9385C00EEC0D4 /* ViewController.swift */,
 				F8FFA1101DF9385C00EEC0D4 /* Main.storyboard */,
+				F8FFA13D1DF938CC00EEC0D4 /* HeaderViewTableViewCell.swift */,
+				F8FFA13E1DF938CC00EEC0D4 /* HeaderViewTableViewCell.xib */,
 				F8FFA1161DF9385C00EEC0D4 /* Assets.xcassets */,
 				F8FFA1181DF9385C00EEC0D4 /* LaunchScreen.storyboard */,
 				F8FFA11B1DF9385C00EEC0D4 /* Info.plist */,
@@ -238,6 +244,7 @@
 				F8FFA11A1DF9385C00EEC0D4 /* LaunchScreen.storyboard in Resources */,
 				F8FFA1171DF9385C00EEC0D4 /* Assets.xcassets in Resources */,
 				F8FFA1121DF9385C00EEC0D4 /* Main.storyboard in Resources */,
+				F8FFA1401DF938CC00EEC0D4 /* HeaderViewTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +272,7 @@
 				F8FFA1151DF9385C00EEC0D4 /* Header_View.xcdatamodeld in Sources */,
 				F8FFA10F1DF9385C00EEC0D4 /* ViewController.swift in Sources */,
 				F8FFA10D1DF9385C00EEC0D4 /* AppDelegate.swift in Sources */,
+				F8FFA13F1DF938CC00EEC0D4 /* HeaderViewTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
